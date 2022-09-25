@@ -1,0 +1,233 @@
+body {
+	margin: 0px;
+}
+#banner {
+	background-color: #F9E4F2;
+	padding: 0px 60px 30px 60px;
+	text-align: center;
+}
+.logo {
+	display: block;
+	position: relative;
+	max-width: 40%;
+	height: auto;
+	margin-left: 30%;
+	margin-right: auto;
+}
+.menu {
+	position: fixed;
+	background-color: #FFF0FC;
+	border: 1px solid #bbb;
+	border-radius: 20%;
+	padding: 20px 12px;
+	z-index: 10;
+	top: 1%;
+	right: 1%;
+}
+.home-text {
+	display: block;
+	font-family: 'Kaisei Decol', serif;
+	font-size: 14px;
+}
+.shop-text {
+	display: block;
+	font-family: 'Kaisei Decol', serif;
+	font-size: 14px;
+}
+.article-text {
+	display: block;
+	font-family: 'Kaisei Decol', serif;
+	font-size: 14px;
+}
+.contact-text {
+	display: block;
+	font-family: 'Kaisei Decol', serif;
+	font-size: 14px;
+}
+.account-text {
+	display: block;
+	font-family: 'Kaisei Decol', serif;
+	font-size: 14px;
+}
+.help {
+	position: fixed;
+	z-index: 10;
+	top: 1%;
+	right: 2%;
+}
+.help-logo {
+	display: inline;
+	background-color: #FFF0FC;
+	max-width: 15%;
+	height: auto;
+	border-radius: 100%;
+}
+.help-alt {
+	display: none;
+}
+#foot {
+	background-color: #F9E4F2;
+	padding: 30px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+}	
+.logo-license {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	max-width: 120px;
+	margin-left: 10%;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.foot-logo {
+	display: block;
+	max-width: 150%;
+	height: auto;
+}
+.license {
+	display: block;
+	font-family: 'Kaisei Decol', serif;
+	font-size: 10px;
+}
+.about {
+	margin-right: auto;
+	margin-left: 10%;
+}
+.about-head {
+	font-family: 'Kaisei Decol', serif;
+	font-size: 12px;
+}
+.about-options {
+	font-family: 'Kaisei Decol', serif;
+	font-size: 10px;
+}
+.sell {
+	margin-right: auto;
+	margin-left: 10%;
+}
+.sell-head {
+	font-family: 'Kaisei Decol', serif;
+	font-size: 12px;
+}
+.sell-options {
+	font-family: 'Kaisei Decol', serif;
+	font-size: 10px;
+}
+.socials {
+	margin-right: auto;
+	margin-left: 10%;
+}
+.social-head {
+	font-family: 'Kaisei Decol', serif;
+	font-size: 12px;
+}
+.social-options {
+	font-family: 'Kaisei Decol', serif;
+	font-size: 10px;
+}
+@media screen and (max-width: 1000px) {
+	.home-text{
+		font-size: 9px;
+	}
+	.shop-text {
+		font-size: 9px;
+	}
+	.article-text {
+		font-size: 9px;
+	}
+	.contact-text {
+		font-size: 9px;
+	}
+	.account-text {
+		font-size: 9px;
+	}
+	.help {
+		display: none;
+	}
+	.help-alt {
+		display: block;
+		position: fixed;
+		background-color: #FFF0FC;
+		border: 1px solid #bbb;
+		border-radius: 20%;
+		padding: 5px 3px;
+		z-index: 10;
+		top: 20%;
+		right: 1.5%;
+		font-size: 9px;
+		font-family: 'Kaisei Decol', serif;
+		margin-top: 30%;
+	}
+	#foot {
+		background-color: #F9E4F2;
+		padding: 30px 0;
+		display: flex;
+		flex-direction: row;
+		align-items: start;
+	}	
+	.logo-license {
+		vertical-align: top;
+		display: inline-block;
+		text-align: center;
+		max-width: 120px;
+		margin-left: 10%;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.foot-logo {
+		display: block;
+		max-width: 150%;
+		height: auto;
+	}
+	.license {
+		display: block;
+		font-family: 'Kaisei Decol', serif;
+		font-size: 10px;
+	}
+	.about {
+		margin-top: 7%;
+		margin-right: auto;
+		margin-left: 20%;
+	}
+	.about-head {
+		font-family: 'Kaisei Decol', serif;
+		font-size: 8px;
+	}
+	.about-options {
+		display: none;
+		font-family: 'Kaisei Decol', serif;
+		font-size: 10px;
+	}
+	.sell {
+		margin-top: 7%;
+		margin-right: auto;
+		margin-left: 10%;
+	}
+	.sell-head {
+		font-family: 'Kaisei Decol', serif;
+		font-size: 8px;
+	}
+	.sell-options {
+		display: none;
+		font-family: 'Kaisei Decol', serif;
+		font-size: 10px;
+	}
+	.socials {
+		margin-top: 7%;
+		margin-right: auto;
+		margin-left: 10%;
+	}
+	.social-head {
+		font-family: 'Kaisei Decol', serif;
+		font-size: 8px;
+	}
+	.social-options {
+		display: none;
+		font-family: 'Kaisei Decol', serif;
+		font-size: 10px;
+	}
+}

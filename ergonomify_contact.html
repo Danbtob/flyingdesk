@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name=‘viewport’ content=“width=device-width, initial-scale=1”>
+		<title>Ergonomify</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@500&display=swap" rel="stylesheet">
+		<link href="StyleSheet.css" rel="stylesheet">
+		<style type="text/css">
+			#contact {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				background-image: url("main-background-filtered.png");
+			}
+			.contact-container {
+				position: relative;
+				display: flex;
+				margin-right: 5%;
+				margin-left: 5%;
+				padding: 10px 60px 10px 30px;
+				background-color: #FFF0FC;
+				border-radius: 12px;
+				flex-direction: column;
+				margin-top: 5%;
+				margin-bottom: 5%;
+			}
+			.contact-header {
+				display: block;
+				font-family: 'Kaisei Decol', serif;
+				font-size: 20px;
+			}
+			.contact-form {
+				display: flex;
+				flex-direction: column;
+				margin-top: 10%;
+				margin-bottom: 10%;
+			}
+			input[type="text"], textarea {
+				width: 100%;
+				height: auto;
+				border: 1px solid #ccc;
+				padding: 12px;
+				border-radius: 20px;
+				box-sizing: border-box;
+				display: block;
+				font-family: 'Kaisei Decol', serif;
+				font-size: 14px;
+				margin-top: 5%;
+				margin-bottom: 5%;
+				resize: vertical;
+			}
+			label {
+				margin-left: 1%;
+			}
+			input[type="submit"] {
+				background-color: #411A42;
+				color: white;
+				padding: 10px 15px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+				margin-top: 5%;
+			}
+			input[type=submit]:hover {
+				background-color: #B14C98;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div id="banner">
+			    <img class="logo" src="Ergonomify Logo.png">
+				<div class="menu">
+					<div class="home-text">
+						<p>HOME</p>
+					</div>
+					<div class="shop-text">
+						<p>SHOP</p> 
+					</div>
+					<div class="article-text">
+						<p>ARTICLES</p> 
+					</div>
+					<div class="contact-text">
+						<a href="ergonomify_contact.html">CONTACT</a>
+					</div>
+					<div class="account-text">
+						<p>ACCOUNT</p>
+					</div>
+				</div>
+				<div class="help">
+					<div><img class="help-logo" src="Help Icon.png"></div>
+				</div>
+				<div class="help-alt">
+					<p>NEED HELP?</p>
+				</div>
+			</div>
+		</header>
+		<section id="contact">
+			<div class="contact-container">
+				<div class="contact-header"><p>Please contact us by filling out the form below</p></div>
+				<div class="contact-form">
+					<form action="action_page.php">
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your first name...">
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name...">
+						<label for="email">Email</label>
+						<input type="text" id="email" name="email" placeholder="email.address@gmail.com">
+						<label for="subject">Subject</label>
+						<textarea id="subject" name="subject" placeholder="Your message..." style="height=200px"></textarea>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div id="foot">
+				<div class="logo-license">
+					<img class="foot-logo" src="Ergonomify Logo.png">
+					<div class="license">
+						<p>&copy;Ergonomify.com</p>
+					</div>
+				</div>
+				<div class="about">
+					<div class="about-head"><h2>About Us</h2></div>
+					<div class="about-options">
+						<p>Careers</p>
+						<p>About Ergonomify</p>
+						<p>Legal</p>
+					</div>
+				</div>
+				<div class="sell">
+					<div class="sell-head"><h2>Sell With Us</h2></div>
+					<div class="sell-options">
+						<p>Request Form</p>
+						<p>Our Process</p>
+						<p>Our Providers</p>
+					</div>
+				</div>
+				<div class="socials">
+					<div class="social-head"><h2>Social Media</h2></div>
+					<div class="social-options">
+						<p>Instagram</p>
+						<p>Youtube</p>
+						<p>Facebook</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
