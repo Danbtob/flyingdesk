@@ -1,5 +1,8 @@
 body {
 	margin: 0px;
+	width:100vw;
+ 	height:100vh;
+  	overflow:auto;
 }
 #banner {
 	background-color: #F9E4F2;
