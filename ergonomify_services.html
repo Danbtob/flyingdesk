@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Ergonomify: Shop</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@500&display=swap" rel="stylesheet">
+		<link href="StyleSheet.css" rel="stylesheet">
+		<style type="text/css">
+			#services {
+				display: flex;
+				flex-flow: column wrap;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+				background-image: url("main-background-filtered.png");
+				background-size: 100%;
+			}
+			.services-header {
+				background-color: #FFF0FC;
+				font-family: 'Kaisei Decol', serif;
+				font-size: 30px;
+				padding: 1px 40px;
+				margin-left: 40%;
+				margin-right: 40%;
+				margin-top: 2%;
+				border-radius: 20px;
+			}
+			.services-content {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+			}
+			.research {
+				position: relative;
+				display: inline-block;
+				padding: 10px 30px;
+				background-color: #FFF0FC;
+				border-radius: 20px;
+				flex-basis: 20%;
+				margin: 5%;
+				z-index: 1;
+			}
+			.review {
+				position: relative;
+				display: inline-block;
+				padding: 10px 30px;
+				background-color: #FFF0FC;
+				border-radius: 20px;
+				flex-basis: 20%;
+				margin: 5%;
+				z-index: 1;
+			}
+			.promote {
+				position: relative;
+				display: inline-block;
+				padding: 10px 30px;
+				background-color: #FFF0FC;
+				border-radius: 20px;
+				flex-basis: 20%;
+				margin: 5%;
+				z-index: 1;
+				align-self: flex-end;
+			}
+			.connect {
+				position: relative;
+				display: inline-block;
+				padding: 10px 30px;
+				background-color: #FFF0FC;
+				border-radius: 20px;
+				flex-basis: 20%;
+				margin: 5%;
+				z-index: 1;
+			}
+			h3 {
+				display: block;
+				font-family: 'Kaisei Decol', serif;
+				font-size: 20px;
+			}
+			.services-p {
+				display: block;
+				font-family: 'Kaisei Decol', serif;
+				font-size: 15px;
+			}
+			.research-logo {
+				position: absolute;
+				z-index: 2;
+				max-width: 15%;
+				height: auto;
+				flex-basis: 20%;
+				top: -4%;
+				right: -3%;
+			}
+			.review-logo {
+				position: absolute;
+				z-index: 2;
+				max-width: 15%;
+				height: auto;
+				flex-basis: 20%;
+				top: -25px;
+				right: -20px;
+			}
+			.promote-logo {
+				position: absolute;
+				z-index: 2;
+				max-width: 15%;
+				height: auto;
+				flex-basis: 20%;
+				top: -25px;
+				right: -20px;
+			}
+			.connect-logo {
+				position: absolute;
+				z-index: 2;
+				max-width: 15%;
+				height: auto;
+				flex-basis: 20%;
+				top: -25px;
+				right: -20px;
+			}
+			@media screen and (max-width: 1000px) {
+				.services-header {
+					font-size: 15px;
+					padding: 1px 10px;
+					margin-left: 40%;
+					margin-right: 40%;
+					margin-top: 2%;
+					border-radius: 20px;
+				}
+				h3 {
+					font-size: 12px;
+				}
+				.services-p {
+					font-size: 10px;
+				}
+				.research-logo {
+					top: -1%;
+					right: -1%;
+				}
+				.review-logo {
+					top: -1%;
+					right: -1%;
+				}
+				.promote-logo {
+					top: -1%;
+					right: -1%;
+				}
+				.connect-logo {
+					top: -1%;
+					right: -1%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div id="banner">
+			    <a href="ergonomify_homepage.html"><img class="logo" src="Ergonomify Logo.png"></a>
+				<div class="menu">
+					<div class="home-text">
+						<a href="ergonomify_homepage.html">HOME</a>
+					</div>
+					<div class="services-text">
+						<a href="ergonomify_services.html">SERVICES</a> 
+					</div>
+					<div class="reviews-text">
+						<p>REVIEWS</p> 
+					</div>
+					<div class="contact-text">
+						<a href="ergonomify_contact.html">CONTACT</a>
+					</div>
+					<div class="account-text">
+						<p>ACCOUNT</p>
+					</div>
+				</div>
+				<div class="help">
+					<div><img class="help-logo" src="Help Icon.png"></div>
+				</div>
+				<div class="help-alt">
+					<p>NEED HELP?</p>
+				</div>
+			</div>
+		</header>
+		<section id="services">
+			<div class="services-content">
+				<div class="services-header"><h2>What We Do<h2></div>
+				<div class="research">
+					<img class="research-logo" src="search icon.png">
+					<h3>Research</h3>
+					<p class="services-p">Ergonomify researches a large variety of ergonomic products, 
+					ranging from keyboards and mice to chairs and standing desks, to 
+					help find the best options for your office and home workspace.</p>
+				</div>
+				<div class="review">
+					<img class="review-logo" src="review icon.png"> 
+					<h3>Review</h3>
+					<p class="services-p">Ergonomify reviews select ergonomic products that we believe
+					are worth investing your time and money in. We review based on risk-of-injury,
+					comfortability, budget, and looks/feel.</p>
+				</div>
+				<div class="promote">
+					<img class="promote-logo" src="promote icon.png">
+					<h3>Promote</h3>
+					<p class="services-p">Ergonomify partners with many ergonomic products sellers and distributors 
+					to advertise positively-reviewed products to our users.</p>
+				</div>
+				<div class="connect">
+					<img class="connect-logo" src="connect icon.png">
+					<h3>Connect</h3>
+					<p class="services-p">Ergonomify connects our users to sellers and distributors to allow for easy access to 
+					buy ergonomic products.</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div id="foot">
+				<div class="logo-license">
+					<img class="foot-logo" src="Ergonomify Logo.png">
+					<div class="license">
+						<p>&copy;Ergonomify.com</p>
+					</div>
+				</div>
+				<div class="about">
+					<div class="about-head"><h2>About Us</h2></div>
+					<div class="about-options">
+						<p>Careers</p>
+						<p>About Ergonomify</p>
+						<p>Legal</p>
+					</div>
+				</div>
+				<div class="sell">
+					<div class="sell-head"><h2>Sell With Us</h2></div>
+					<div class="sell-options">
+						<p>Request Form</p>
+						<p>Our Process</p>
+						<p>Our Providers</p>
+					</div>
+				</div>
+				<div class="socials">
+					<div class="social-head"><h2>Social Media</h2></div>
+					<div class="social-options">
+						<p>Instagram</p>
+						<p>Youtube</p>
+						<p>Facebook</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
